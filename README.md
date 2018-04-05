@@ -2,10 +2,8 @@
 
 | Name 	| Description 	|
 |--------------	|-----------------------	|
-| Module name 	| Mendix iPay88 Module 	|
 | Author 	| Rionald Chancellor 	|
 | Company 	| Magnus 	|
-| Type 	| Module 	|
 | Version 	| 1.0 	|
 | Package name 	| PaymentInterfaces.mpk 	|
 | Released 	| 5-5-2018 	|
