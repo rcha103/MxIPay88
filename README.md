@@ -14,9 +14,9 @@ MxIPay88 is a module that enables your Mendix application to use iPay88, a leadi
 ### Credits
 
 MxIPay88 is an extension based from several other projects. Credit to the following:
-  - [Erwin 't Hoen](https://github.com/Erwin-t-Hoen)  for his work on [Open-Authentication-Module ](https://github.com/Erwin-t-Hoen/Open-Authentication-Module). The payment callback request handler is based from his work.
-  - [Mendix](https://github.com/mendix)  for their work on [GeolocationForPhoneGap ](https://github.com/mendix/GeolocationForPhoneGap). The widget used in this module is based on their widget implementation.
-  - [Tjwoon](https://github.com/tjwoon)  for his work on [csIPay88 ](https://github.com/tjwoon/csIPay88). The widget used in this module uses his plugin, which uses the iPay88 mobile SDK for Android and iOS.
+  - [Erwin 't Hoen](https://github.com/Erwin-t-Hoen) for his work on [Open-Authentication-Module](https://github.com/Erwin-t-Hoen/Open-Authentication-Module). The payment callback request handler is based from his work.
+  - [Mendix](https://github.com/mendix) for their work on [GeolocationForPhoneGap](https://github.com/mendix/GeolocationForPhoneGap). The widget used in this module is based on their widget implementation.
+  - [Tjwoon](https://github.com/tjwoon) for his work on [csIPay88](https://github.com/tjwoon/csIPay88). The widget used in this module uses his plugin, which uses the iPay88 mobile SDK for Android and iOS.
 
 
 ### Usage Scenario
