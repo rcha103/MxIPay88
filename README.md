@@ -62,7 +62,7 @@ If your Mendix app requires a payment gateway to perform a transaction, MxIpay88
 
 
 ### Known bugs
-- On Android, the widget will always have issues executing the success and fail microflow. This is due to the plugin missing the onSaveInstanceState() implementation. For more details, check [this issue](https://github.com/tjwoon/csIPay88/issues/13) 
+- On Android, the widget will always have issues executing the success and fail microflow. This is due to the plugin missing the onSaveInstanceState() implementation. As a result, a static failure message will appear for Android platform. Payment success will restart the mobile app, but once the backend payment callback is executed by iPay88, your update should be reflected. This issue does not happen in iOS. For more details, check [this issue](https://github.com/tjwoon/csIPay88/issues/13) 
 ### FAQ
 - You can raise an issue on GitHub, I might be able to answer it if I have the time. Asking on Mendix forum probably won't get you the answer since I don't spend much time there.
 - For questions specific to iPay88 please ask their support line. I do not work for iPay88, I simply make an implementation of it on Mendix.
