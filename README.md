@@ -30,7 +30,7 @@ If your Mendix app requires a payment gateway to perform a transaction, MxIpay88
 
 
 ### Requirements
-- Mendix 6 or later (tested on Mendix 7.5)
+- Theoretically works on Mendix 6 or later (implemented on Mendix 7.5)
 - Ipay88 merchant account
 - If you want to support mobile payments then you must also have a mobile SDK account (contact iPay88 for more details)
 
