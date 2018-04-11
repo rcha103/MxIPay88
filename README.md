@@ -56,6 +56,7 @@ If your Mendix app requires a payment gateway to perform a transaction, MxIpay88
 2. apache-httpcomponents-httpclient.jar (included)
 3. httpclient-4.3.5.jar (included)
 4. org.apache.httpcomponents.httpclient_4.3.5.jar (included)
+5. Community commons module
 
 
 ### Known bugs
