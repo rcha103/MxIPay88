@@ -35,7 +35,7 @@ If your Mendix app requires a payment gateway to perform a transaction, MxIpay88
 
 
 ### Installation and configuration
-1. Import the module to your project
+1. Download and import the module to your project
 2. Download be_response.html and copy it to your theme folder
 3. On your phonegap **config.xml** file, add the following line:
     ```sh
