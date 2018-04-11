@@ -49,16 +49,17 @@ If your Mendix app requires a payment gateway to perform a transaction, MxIpay88
 8. For **PaymentCallback_StartRequestHandler**, set the value as: ***pcallback/***
 9. For **PaymentCallbackBE_StartRequestHandler**, set the value as: ***becallback/***
 10. Make a copy of the microflow **ProcessPaymentResponse** and implement how you would like to process the payment once it is approved.
+11. You need to set up your request handler on your server. The configuration is system specific. For Mendix Cloud, you can [file a support ticket](https://support.mendix.com/). For Microsoft Windows, you can follow [this guide](https://docs.mendix.com/deployment/on-premises/deploy-mendix-on-microsoft-windows). For other system, you can look at the specific system configuration.
 
 ### Dependencies
 1. Mendix 6 environment or higher
 2. Mx Model Reflection module
 3. Community Commons module
-4. apache-httpcomponents-httpclient.jar
-5. httpclient-4.3.5.jar
-6. json-simple.jar
-7. org.apache.httpcomponents.httpclient_4.3.5.jar
-8. Ipay88 plugin (required for mobile payment)
+4. apache-httpcomponents-httpclient.jar (included)
+5. httpclient-4.3.5.jar (included)
+6. json-simple.jar (included)
+7. org.apache.httpcomponents.httpclient_4.3.5.jar (included)
+8. Ipay88 plugin (included, required for mobile payment)
 
 
 ### Known bugs
